@@ -38,4 +38,4 @@ jobs:
       run: mvn install -DskipTests
 
     - name: Run tests
-      run: mvn -Dtest=AppTests test
+      run: mvn test
