@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class AppTest {
+public class AppTests {
     @Test
     public void testMultiply() {
         assertEquals(6, App.multiply(2, 3));
